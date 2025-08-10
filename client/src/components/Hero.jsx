@@ -4,7 +4,6 @@ import { useAppContext } from '../context/AppContext';
 import { motion } from 'framer-motion';
 
 const Hero = () => {
-
     const { 
         location, 
         setLocation, 
@@ -69,7 +68,7 @@ const Hero = () => {
                 initial={{ y: 100, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.6 }}
-                src={assets.main_house}
+                src={"https://nexahomes.com.au/wp-content/uploads/2023/10/facade-min.png"}
                 alt="House"
                 className='max-h-74'
             />
