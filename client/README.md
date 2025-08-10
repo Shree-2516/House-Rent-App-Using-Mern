@@ -1,12 +1,30 @@
-# React + Vite
+House Rent App Frontend (Client)
+This folder contains the frontend application for the House Rent App, built with React.js.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+User Interface: A responsive and modern UI for Browse and booking houses.
 
-Currently, two official plugins are available:
+State Management: Uses React Context to manage global application state.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+API Calls: Communicates with the backend server using the axios library.
 
-## Expanding the ESLint configuration
+Dynamic Routing: Handles navigation between different pages and user dashboards.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+How to Run the Client
+1. Prerequisites
+Make sure the backend server is already running. If you haven't started it yet, follow the instructions in the server/README.md file.
+
+2. Installation and Startup
+Open a terminal and navigate to this client folder.
+
+Install dependencies:
+
+Bash
+
+npm install
+Run the project:
+
+Bash
+
+npm run dev
+The React application will start, and you can access it in your browser, usually at http://localhost:5173 (or another port as specified by your development server).
